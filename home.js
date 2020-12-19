@@ -5,7 +5,7 @@ let my_num = Math.floor(Math.random() * 10) + 1;
 document.getElementById("btn").addEventListener("click",
 function on_submit()
 {
-    console.log("Random: ", my_num);
+    // console.log("Random: ", my_num);
 
 let num = document.getElementById("number").value;
 
